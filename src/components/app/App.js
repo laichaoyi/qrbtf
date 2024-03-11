@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect} from 'react';
 import './App.css';
 import '../Qrcode.css';
-import PartFooter from "./PartFooter";
+
 import PartHeader from "./PartHeader";
 import PartMore from "./PartMore";
 import PartParams from "./PartParams";
@@ -57,7 +57,7 @@ function App({ dispatch }) {
                         <PartParams/>
                         <PartDownloadViewer updateDownloadData={updateDownloadData}/>
                         <PartMore/>
-                        <PartFooter/>
+                        
                     </div>
                 </div>
             </header>
